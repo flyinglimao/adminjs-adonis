@@ -1,13 +1,16 @@
 {
-  "name": "@adminjs/adonis",
+  "name": "@flyinglimao/adminjs-adonis-cockroach-fix",
   "version": "1.0.1",
+  "publishConfig": {
+    "@flyinglimao:registry": "https://npm.pkg.github.com"
+  },
   "type": "module",
   "license": "MIT",
   "author": {
     "name": "Rafał Dzięgielewski",
     "email": "rafal.dzieg@gmail.com"
   },
-  "repository": "git@github.com:SoftwareBrothers/adminjs-adonis.git",
+  "repository": "git@github.com:flyinglimao/adminjs-adonis.git",
   "files": [
     "lib",
     "!lib/bin",

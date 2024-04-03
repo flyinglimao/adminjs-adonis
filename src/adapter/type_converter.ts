@@ -29,6 +29,7 @@ export const databaseTypeToAdminType: TypeConverter = (columnType: string) => {
     case 'smallint':
     case 'mediumint':
     case 'int':
+    case 'int8':
     case 'integer':
     case 'bigint':
       return 'number'
@@ -52,6 +53,7 @@ export const databaseTypeToAdminType: TypeConverter = (columnType: string) => {
 
     case 'datetime':
     case 'timestamp':
+    case 'timestamptz':
       return 'datetime'
 
     default:
