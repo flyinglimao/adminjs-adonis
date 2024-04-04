@@ -54,7 +54,7 @@ export const databaseTypeToAdminType: TypeConverter = (columnType: string) => {
     case 'datetime':
     case 'timestamp':
     case 'timestamptz':
-      return 'datetime'
+      return 'string' // skip Luxon.Datetime
 
     case 'uuid':
       return 'uuid'
